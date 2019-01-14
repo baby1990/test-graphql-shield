@@ -1,0 +1,19 @@
+{
+  "name": "graphql-demo",
+  "version": "1.0.0",
+  "description": "graphql demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./simple-demo/index.js",
+    "prisma": "node ./service/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphql": "^14.0.2",
+    "graphql-shield": "^5.1.0",
+    "graphql-yoga": "^1.16.7",
+    "prisma-binding": "^2.2.14"
+  }
+}
